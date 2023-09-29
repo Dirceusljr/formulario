@@ -31,7 +31,8 @@ div {
 
 .campo__maior {
     width: 100%;
-    margin: 0;
+    margin: auto;
+
 }
 
 .campo__menor {
@@ -71,8 +72,11 @@ div {
 
 input {
     background: none;
+    box-sizing: border-box;
     border: 1px solid gray;
     padding: 0;
+    box-shadow: 0;
+    margin: 0;
 }
 
 .submit {
